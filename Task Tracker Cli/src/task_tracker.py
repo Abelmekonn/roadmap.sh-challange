@@ -69,7 +69,7 @@ def list_tasks(status=None):
     tasks = load_tasks()
     filtered_tasks = [task for task in tasks if status is None or task['status'] == status]
     for task in filtered_tasks:
-        print(f"ID: {task['id']}, Description: {task['description']}, Status: {task['status']}, CreatedAt: {task['createdAt']}, UpdatedAt: {task['updatedAt']}")
+        print(f"ID: {task['id']},\nDescription: {task['description']},\nStatus: {task['status']},\nCreatedAt: {task['createdAt']},\nUpdatedAt: {task['updatedAt']}")
 
 def create_tasks_file():
     if not os.path.exists(TASKS_FILE):
