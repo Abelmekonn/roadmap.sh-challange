@@ -9,7 +9,7 @@ Sample solution for a Task Tracker CLI project. This project is a command-line i
 Clone the repository and set up the project:
 
 ```bash
-git clone [https://github.com/yourusername/task-tracker-cli](https://github.com/Abelmekonn/roadmap.sh-challange/blob/main/Task%20Tracker%20Cli).git
+git clone https://github.com/Abelmekonn/roadmap.sh-challange/blob/main/Task%20Tracker%20Cli.git
 cd task-tracker-cli
 ```
 
